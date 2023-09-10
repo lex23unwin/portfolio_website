@@ -117,77 +117,12 @@ main {
 
 /********** ABOUT PAGE ************* */
 
-#about-main {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    justify-content: center;
-    align-items: center;
-    margin-top: -5em;
-}
 
-#main-container-about {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
-}
 
-#main-title-about {
-    font-size: 3rem;
-    border-bottom: 2px solid black;
-    width: 50%;
-    text-align: center;
-}
 
-#main-container-about {
-    border: 2px solid black;
-    padding: 2em;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.33rem;
-}
 
-#main-container-content {
-    width: 350px;
-    font-size: 1.33rem;
-    border: 2px solid black;
-    padding: 1em;
-}
 
-#main-container-side-bar {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
 
-#main-odin {
-    text-align: center;
-    font-size: 2.25rem;
-    border: 2px solid black;
-    padding: 1em;
-}
-
-#main-resume {
-    text-align: center;
-    font-size: 2.25rem;
-    border: 2px solid black;
-    padding: 1em;
-}
-
-#main-resume-link a {
-    text-decoration: none;
-    color: black;
-}
-
-.resume-link {
-    border-radius: 15px;
-    padding: .5em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-    border-color: black;
-    background-color: #8ACCDE;
-}
 
 /********* Project page ***************/
 #projects-main {
@@ -266,7 +201,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 2em;
-    margin-top: 0em;
+    margin-top: -10em;
 }
 
 #skills-main img {
@@ -340,140 +275,6 @@ ul {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     border-color: black;
     background-color: #8ACCDE;
-}
-
-/********* SERVICE PAGE **************/
-
-#service-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
-    margin-top: -5em;
-}
-
-#main-title {
-    font-size: 3rem;
-    border-bottom: 2px solid black;
-    display: flex;
-    justify-content: center;
-    width: 25%;
-}
-
-#main-container-service {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    font-size: 1rem;
-}
-
-.main-container-row {
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-    border: 2px solid black;
-    padding: 1em;
-}
-
-.main-container-row-content {
-    width: 1000px;
-}
-
-.service-img {
-    width: 250px;
-    height: 200px;
-}
-
-
-/********** AI PAGE ***********/ 
-
-#ai-title {
-    font-size: 3rem;
-    border-bottom: 2px solid black;
-    text-align: center;
-    width: 12.5%;
-    margin-top: -1em;
-}
-
-#ai-prompt { 
-    font-size: .5rem; /***added by me post **/
-    text-align: center;
-}
-
-#ai-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 100vh;
-    gap: .5em;
-}
-
-#ai-content {
-    background-color: #f4f4f4; /* Light background color */
-    text-align: center;
-    padding: 2em;
-    max-width: 900px; /* Adjusted max-width as requested */
-    margin-top: 2em; /* Add margin to center the content vertically */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow */
-}
-
-#ai-image {
-    max-width: 15%; /* Adjust the image size */
-    display: block;
-    margin: 0 auto; /* Center the image horizontally */
-}
-
-#ai-content h1 {
-    font-size: 1.5rem;
-    margin-top: 1em;
-}
-
-blockquote {
-    font-style: italic;
-    margin: 1em 0;
-}
-
-#tech-list {
-    display: flex;
-    justify-content: center; /* Center the technologies list horizontally */
-    list-style: none;
-    padding: 0;
-    margin: 1em 0;
-}
-
-#tech-list ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-#tech-list li {
-    background-color: #74ebd5;
-    padding: 0.5em 1em;
-    margin-right: 1em;
-    border-radius: 5px;
-}
-
-#call-to-action {
-    margin-top: 2em;
-}
-
-.cta-button {
-    display: inline-block;
-    padding: 1em 2em;
-    background-color: #74ebd5;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.cta-button:hover {
-    background-color: #9face6;
-    color: black;
 }
 
 
@@ -554,4 +355,10 @@ input[type="checkbox"].toggle:checked + label::before {
 input[type="checkbox"].toggle:checked + label::after {
     left: 1.9em;
     background-color: lime;
+}
+
+/************* CONTACT ************/
+
+#contact-main {
+    border: 2px solid black;
 }
