@@ -1,0 +1,556 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto&family=Rubik+Iso&family=Titillium+Web&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family:'Titillium Web', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+/************ HEADER *******************/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 0;
+    height: 100px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    border-bottom: 2px solid black;
+}
+
+
+#header-logos-container {
+    display: flex;
+    gap: 1em;
+    margin-left: 2em;
+    align-items: center;
+}
+
+#header-logo-image {
+    height: 100px;
+    width: 100px;
+    margin: .5em;
+}
+
+#header-title {
+    font-size: 2.5rem;
+}
+
+#header-links-container {
+    display: flex;
+    gap: 2em;
+    margin-right: 2em;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.75rem;
+}
+
+.header-link:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+/************ INDEX PAGE MAIN *******************/
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    height: 100%;
+}
+
+#main-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+
+#main-headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-content-greeting {
+    width: 100%;
+}
+
+#main-content-greeting-firstline {
+    font-size: 1.5rem;
+}
+
+#main-content-greeting-secondline {
+    font-size: 4rem;
+}
+
+#main-content-greeting-description {
+    font-size: 1.5rem;
+}
+
+#main-headshot-image {
+    min-height: 300px;
+    max-width: 300px;
+    border-radius: 500px;
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.5);
+}
+
+/********** ABOUT PAGE ************* */
+
+#about-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5em;
+}
+
+#main-container-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+#main-title-about {
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    width: 50%;
+    text-align: center;
+}
+
+#main-container-about {
+    border: 2px solid black;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.33rem;
+}
+
+#main-container-content {
+    width: 350px;
+    font-size: 1.33rem;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+#main-container-side-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#main-odin {
+    text-align: center;
+    font-size: 2.25rem;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+#main-resume {
+    text-align: center;
+    font-size: 2.25rem;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+#main-resume-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.resume-link {
+    border-radius: 15px;
+    padding: .5em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    border-color: black;
+    background-color: #8ACCDE;
+}
+
+/********* Project page ***************/
+#projects-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-top: -1em;
+}
+
+#project-title {
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    width: 25%;
+    text-align: center;
+}
+
+.project-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.project-container {
+    border: 2px solid black;
+    width: 650px;
+    font-size: 1.5rem;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.project-explanation {
+    border: 2px solid black;
+    font-size: 1rem;
+    padding: .5em;
+}
+
+.project-explanation ul li {
+    list-style-type: none;
+}
+
+.project-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+.project-link {
+    text-align: center;
+}
+
+.project-link-button {
+    border-radius: 15px;
+    padding: .5em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    border-color: black;
+    background-color: #8ACCDE;
+    font-size: 1.2rem;
+}
+
+/************ SKILLS PAGE **********/
+#skills-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 0em;
+}
+
+#skills-main img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#main-title {
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 50%;
+}
+
+#skills-content-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-images-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 1400px;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.main-container-skills {
+    border: 2px solid black;
+    padding: 1em;
+    width: 500px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 320px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.25em;
+}
+
+
+#main-resume-skills {
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 1em;
+    width: 500px;
+}
+
+#main-resume-link-skills a {
+    text-decoration: none;
+    color: black;
+}
+
+.resume-link-skills {
+    border-radius: 15px;
+    padding: .5em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    border-color: black;
+    background-color: #8ACCDE;
+}
+
+/********* SERVICE PAGE **************/
+
+#service-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: -5em;
+}
+
+#main-title {
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+#main-container-service {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-size: 1rem;
+}
+
+.main-container-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.main-container-row-content {
+    width: 1000px;
+}
+
+.service-img {
+    width: 250px;
+    height: 200px;
+}
+
+
+/********** AI PAGE ***********/ 
+
+#ai-title {
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 12.5%;
+    margin-top: -1em;
+}
+
+#ai-prompt { 
+    font-size: .5rem; /***added by me post **/
+    text-align: center;
+}
+
+#ai-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    gap: .5em;
+}
+
+#ai-content {
+    background-color: #f4f4f4; /* Light background color */
+    text-align: center;
+    padding: 2em;
+    max-width: 900px; /* Adjusted max-width as requested */
+    margin-top: 2em; /* Add margin to center the content vertically */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+}
+
+#ai-image {
+    max-width: 15%; /* Adjust the image size */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+#ai-content h1 {
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1em 0;
+}
+
+#tech-list {
+    display: flex;
+    justify-content: center; /* Center the technologies list horizontally */
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+#tech-list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#tech-list li {
+    background-color: #74ebd5;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+
+#call-to-action {
+    margin-top: 2em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #74ebd5;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #9face6;
+    color: black;
+}
+
+
+/************ FOOTER *******************/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    border-top: 2px solid black;
+}
+
+#footer-COA {
+    font-size: 2rem;
+}
+
+#footer-links-container {
+    display: flex;
+    gap: 2em;
+}
+
+.footer-link-image {
+    color: black;
+}
+
+.footer-link-image:hover {
+    color: blue;
+}
+
+#footer-style-toggle {
+    position: absolute;
+    right: 10px;
+}
+
+input[type="checkbox"].toggle {
+    position: absolute;
+}   
+
+input[type="checkbox"].toggle + label {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"].toggle + label::before {
+    content: '';
+    width: 50px;
+    height: 25px;
+    background-color: aqua;
+    margin-right: .25em;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+input[type="checkbox"].toggle + label::after {
+    position: absolute;
+    left: .2em;
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+input[type="checkbox"].toggle:checked + label::before {
+    background-color: green;
+}
+
+input[type="checkbox"].toggle:checked + label::after {
+    left: 1.9em;
+    background-color: lime;
+}
