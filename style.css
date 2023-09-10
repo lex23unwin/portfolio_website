@@ -79,6 +79,16 @@ main {
     height: 100%;
 }
 
+#index-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    height: 100%;
+    margin-top: 17.5em;
+}
+
 #main-content-container {
     display: flex;
     flex-direction: column;
@@ -117,8 +127,49 @@ main {
 
 /********** ABOUT PAGE ************* */
 
+#about-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    margin-top: 8em;
+}
 
+#about-title {
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 17.5%;
+}
 
+#about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    width: 1200px;
+    font-size: 1.3rem;
+}
+
+.about-content {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+}
+
+#vinyl-records {
+    width: 150px;
+    height: 150px;
+}
+
+#aggie-stadium {
+    width: 150px;
+    height: 150px;
+}
 
 
 
@@ -130,13 +181,13 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 2em;
-    margin-top: -1em;
+    margin-top: 8em;
 }
 
 #project-title {
     font-size: 3rem;
     border-bottom: 2px solid black;
-    width: 25%;
+    width: 20%;
     text-align: center;
 }
 
@@ -201,7 +252,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 2em;
-    margin-top: -10em;
+    margin-top: 8em;
 }
 
 #skills-main img {
@@ -213,7 +264,7 @@ main {
     font-size: 3rem;
     border-bottom: 2px solid black;
     text-align: center;
-    width: 50%;
+    width: 17.5%;
 }
 
 #skills-content-container {
@@ -241,9 +292,10 @@ main {
     border: 2px solid black;
     padding: 1em;
     width: 500px;
-    font-size: 1rem;
+    font-size: 1.35rem;
     display: flex;
     justify-content: center;
+    text-align: center;
     height: 320px;
 }
 
