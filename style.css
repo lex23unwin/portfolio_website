@@ -235,7 +235,8 @@ main {
 }
 
 .project-explanation ul li {
-    list-style-type: none;
+    list-style-type: lower-roman;
+    margin-left: 1em;
 }
 
 .project-image {
